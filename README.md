@@ -88,7 +88,7 @@ docker run -it --rm elastic/eland eland_import_hub_model --url https://<elastic_
    ![image](https://github.com/valerioarvizzigno/homecraft_vertex_lab/assets/122872322/761cf843-c238-4f14-8fc2-47a6157f98b3)
 
 
-8a. (Only if on Elastic 8.12, not the 8.3) As later we will be using "title-vector" field for kNN search in our application (and not the default "ml.inference.title-vector.predicted_values") let's add an additional SET processor at the bottom of the processors list as in the image below:
+8a. (Only if on Elastic 8.12, not the 8.3) As later we will be using "title-vector" field for kNN search in our application (and not the default "ml.inference.title-vector.predicted_value") let's add an additional SET processor at the bottom of the processors list as in the image below:
 
 ![image](https://github.com/valerioarvizzigno/homecraft_vertex_lab/assets/122872322/871c5b93-1a8e-4337-b98c-447456351c89)
 
